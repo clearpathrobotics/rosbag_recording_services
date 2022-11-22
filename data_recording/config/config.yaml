@@ -1,10 +1,6 @@
 # Configuration parameters for data recording node.
 
-output_directory: '/home/example/rosbags'
+output_directory: '/home/administrator/onav_log/rosbag_data'
 
 topics:
-  - '/example/(.*)'
-  - '/camera/depth/image_raw'
-  - '/camera/depth/camera_info'
-  - '/camera/rgb/image_raw'
-  - '/camera/rgb/camera_info'
+  - '/(.*)'
