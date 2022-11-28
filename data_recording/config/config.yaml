@@ -1,6 +1,6 @@
 # Configuration parameters for data recording node.
 
-output_directory: '/home/administrator/onav_log/rosbag_data'
+output_directory: '/onav_log/rosbag_data'
 
 topics:
   - '/(.*)'
