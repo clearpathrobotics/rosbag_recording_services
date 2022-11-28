@@ -3,4 +3,11 @@
 output_directory: '/onav_log/rosbag_data'
 
 topics:
-  - '/(.*)'
+  - '/rosout_agg/(.*)'
+  - '/rosout'
+  - '/twist_marker_server/(.*)'
+  - '/localization_helper/(.*)'
+  - '/localization_core/(.*)'
+  - '/move_base_flex/(.*)'
+  - '/piksi_position/(.*)'
+  - '/piksi_heading/(.*)'
