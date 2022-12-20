@@ -8,6 +8,5 @@ topics:
   - '/twist_marker_server/(.*)'
   - '/localization_helper/(.*)'
   - '/localization_core/(.*)'
-  - '/move_base_flex/(.*)'
   - '/piksi_position/(.*)'
   - '/piksi_heading/(.*)'
