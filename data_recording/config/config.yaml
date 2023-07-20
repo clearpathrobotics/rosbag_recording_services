@@ -16,5 +16,7 @@ topics:
   - '/onboard_systems/(.*)'
   - '/platform/(.*)'
   - '/swiftnav/(.*)'
+  - '/sensors/gps(.*)'
+  - '/sensors/imu(.*)'
   - '/target/(.*)'
   - '/tf(.*)'
