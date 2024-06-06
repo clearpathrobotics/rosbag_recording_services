@@ -1,11 +1,12 @@
 # Configuration parameters for data recording node.
 
-output_directory: '/onav_log/rosbag_data'
+output_directory: '/opt/onav/rosbag_data'
 
 topics:
   - '/rosout_agg/(.*)'
   - '/rosout'
   - '/twist_marker_server/(.*)'
+  - '/autonomy/(.*)'
   - '/dock/(.*)'
   - '/laser_target_tracker/(.*)'
   - '/localization/(.*)'
